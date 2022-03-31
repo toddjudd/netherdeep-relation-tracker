@@ -1,25 +1,10 @@
-# React Template
+# Call of the Netherdeep Relation Tracker
 
-This repo is a template for a basic react application.
-
-This trys to follow as many pratices as possible from
-[bulletproof-react](https://github.com/alan2207/bulletproof-react).
-
-This repo makes use of the following packages to help get started building
-quicker:
-
-- Typescript for easier to read and debug code.
-- eslint and prettier code formating and validation
-- craco for some custom webpack configuration
-- Tailwindcss for quick css development
-- react-bootstrap as a simple UI component library.
-- Storybook for component iteration and documentation
-
-## Things I'd lie to include
-
-- Jest for testing
-- Some form of commit linting for clean standard commit messages
-- Some form of spell check linting
+Inspired by this
+[Reddit Post](https://www.reddit.com/r/CalloftheNetherdeep/comments/tosbgu/notsoprinter_friendly_rival_relationship_tracker/),
+this repo will host a react app that will allow you to add Player Characters and
+track their relation to the Call of the Netherdeeps NPC Rivals. The App is self
+contained and will store data localy in the browser.
 
 ## Available Scripts
 
