@@ -45,6 +45,7 @@ module.exports = {
             namedComponents: 'arrow-function',
           },
         ],
+        'react/display-name': [0, { ignoreTranspilerName: false }],
         'react/prop-types': 'off',
         'linebreak-style': ['error', 'unix'],
         'import/order': [

@@ -1,8 +1,8 @@
-import { Landing } from '@/features/misc';
+import { RivalRoutes } from '@/features/rivals';
 
 export const publicRoutes = [
   {
     path: '/*',
-    element: <Landing />,
+    element: <RivalRoutes />,
   },
 ];

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Button from 'react-bootstrap/Button';
 import { ErrorBoundary } from 'react-error-boundary';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const ErrorFallback = () => {
   return (
@@ -23,6 +24,8 @@ type AppProviderProps = {
 
 export const AppProvider = ({ children }: AppProviderProps) => {
   return (
-    <ErrorBoundary FallbackComponent={ErrorFallback}>{children}</ErrorBoundary>
+    <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <Router>{children}</Router>
+    </ErrorBoundary>
   );
 };

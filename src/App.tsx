@@ -1,10 +1,10 @@
-import { Landing } from '@/features/misc';
 import { AppProvider } from '@/providers/app';
+import { AppRoutes } from '@/routes';
 
 const App = () => {
   return (
     <AppProvider>
-      <Landing />
+      <AppRoutes />
     </AppProvider>
   );
 };

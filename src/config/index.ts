@@ -1,14 +1,16 @@
 const API_URL = process.env.REACT_APP_API_URL as string;
 
-export type Rival = {
-  name: string;
-  goals: string[];
-  imgSrc: string;
-};
-
-export const Rivals: Rival[] = [
+export const Rivals = [
   {
     name: 'Ayo Jabe',
+    relations: [
+      {
+        player: 'Bramthrum',
+        hostile: false,
+        indifferent: false,
+        friendly: false,
+      },
+    ],
     goals: [
       'Become a hero like the ones she has read about in stories.',
       'Make a friend she can be truly herself around.',
@@ -19,6 +21,14 @@ export const Rivals: Rival[] = [
   },
   {
     name: 'Dermot Wurder',
+    relations: [
+      {
+        player: 'Bramthrum',
+        hostile: false,
+        indifferent: true,
+        friendly: false,
+      },
+    ],
     goals: [
       'Protect his friends.',
       'Have a life-changing holy vision.',
@@ -29,6 +39,14 @@ export const Rivals: Rival[] = [
   },
   {
     name: 'Galsariad Ardyth',
+    relations: [
+      {
+        player: 'Bramthrum',
+        hostile: false,
+        indifferent: true,
+        friendly: false,
+      },
+    ],
     goals: [
       'Match wits with an archmage.',
       'Discover a magical secret no one else knows.',
@@ -39,6 +57,14 @@ export const Rivals: Rival[] = [
   },
   {
     name: 'Irvan Wastewalker',
+    relations: [
+      {
+        player: 'Bramthrum',
+        hostile: false,
+        indifferent: true,
+        friendly: false,
+      },
+    ],
     goals: [
       'Experience things he has never encountered before.',
       "Fall in love with someone who doesn't know about his past lifetime.",
@@ -49,6 +75,14 @@ export const Rivals: Rival[] = [
   },
   {
     name: 'Maggie Keeneyes',
+    relations: [
+      {
+        player: 'Bramthrum',
+        hostile: false,
+        indifferent: true,
+        friendly: false,
+      },
+    ],
     goals: [
       'Spar with a true tactical genius.',
       'Write a song or poem that causes someone to weep with emotion.',

@@ -2,11 +2,11 @@ import { Meta, Story } from '@storybook/react';
 
 import { Rivals } from '@/config/index';
 
-import { Portrait, PortraitProps } from './Portrait';
+import { Title, TitleProps } from './Title';
 
 const meta: Meta = {
-  title: 'Components/Elements/Portrait',
-  component: Portrait,
+  title: 'Features/Rivals/Components/Title',
+  component: Title,
   parameters: {
     controls: { expanded: true },
   },
@@ -14,7 +14,7 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<PortraitProps> = (props) => <Portrait {...props} />;
+const Template: Story<TitleProps> = (props) => <Title {...props} />;
 
 export const Primary = Template.bind({});
-Primary.args = { src: Rivals[0].imgSrc };
+Primary.args = { name: Rivals[0].name };
