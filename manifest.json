@@ -3,18 +3,18 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://media.dndbeyond.com/mega-menu/e57fa5509f7a8fbc5480f253783b01ba.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "https://media.dndbeyond.com/mega-menu/e57fa5509f7a8fbc5480f253783b01ba.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "https://media.dndbeyond.com/mega-menu/e57fa5509f7a8fbc5480f253783b01ba.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
