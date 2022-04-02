@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/netherdeep-relation-tracker/static/css/main.4df700b2.css",
+    "main.js": "/netherdeep-relation-tracker/static/js/main.c161cf6b.js",
+    "static/js/967.7be9aa7d.chunk.js": "/netherdeep-relation-tracker/static/js/967.7be9aa7d.chunk.js",
+    "index.html": "/netherdeep-relation-tracker/index.html",
+    "main.4df700b2.css.map": "/netherdeep-relation-tracker/static/css/main.4df700b2.css.map",
+    "main.c161cf6b.js.map": "/netherdeep-relation-tracker/static/js/main.c161cf6b.js.map",
+    "967.7be9aa7d.chunk.js.map": "/netherdeep-relation-tracker/static/js/967.7be9aa7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df700b2.css",
+    "static/js/main.c161cf6b.js"
+  ]
+}
