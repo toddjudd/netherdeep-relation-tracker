@@ -8,9 +8,9 @@ export const Rivals: Rival[] = [
     relations: [
       {
         character: 'Ayo Jabe',
-        player: 'Bramthrum',
+        player: 'Fjord Stone',
         hostile: false,
-        indifferent: false,
+        indifferent: true,
         friendly: false,
       },
     ],
@@ -27,7 +27,7 @@ export const Rivals: Rival[] = [
     relations: [
       {
         character: 'Dermot Wurder',
-        player: 'Bramthrum',
+        player: 'Fjord Stone',
         hostile: false,
         indifferent: true,
         friendly: false,
@@ -46,7 +46,7 @@ export const Rivals: Rival[] = [
     relations: [
       {
         character: 'Galsariad Ardyth',
-        player: 'Bramthrum',
+        player: 'Fjord Stone',
         hostile: false,
         indifferent: true,
         friendly: false,
@@ -65,7 +65,7 @@ export const Rivals: Rival[] = [
     relations: [
       {
         character: 'Irvan Wastewalker',
-        player: 'Bramthrum',
+        player: 'Fjord Stone',
         hostile: false,
         indifferent: true,
         friendly: false,
@@ -84,7 +84,7 @@ export const Rivals: Rival[] = [
     relations: [
       {
         character: 'Maggie Keeneyes',
-        player: 'Bramthrum',
+        player: 'Fjord Stone',
         hostile: false,
         indifferent: true,
         friendly: false,
