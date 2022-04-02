@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/netherdeep-relation-tracker/static/css/main.4df700b2.css",
-    "main.js": "/netherdeep-relation-tracker/static/js/main.32cf2e2e.js",
+    "main.js": "/netherdeep-relation-tracker/static/js/main.100bcb63.js",
     "static/js/967.7be9aa7d.chunk.js": "/netherdeep-relation-tracker/static/js/967.7be9aa7d.chunk.js",
     "index.html": "/netherdeep-relation-tracker/index.html",
     "main.4df700b2.css.map": "/netherdeep-relation-tracker/static/css/main.4df700b2.css.map",
-    "main.32cf2e2e.js.map": "/netherdeep-relation-tracker/static/js/main.32cf2e2e.js.map",
+    "main.100bcb63.js.map": "/netherdeep-relation-tracker/static/js/main.100bcb63.js.map",
     "967.7be9aa7d.chunk.js.map": "/netherdeep-relation-tracker/static/js/967.7be9aa7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4df700b2.css",
-    "static/js/main.32cf2e2e.js"
+    "static/js/main.100bcb63.js"
   ]
 }
