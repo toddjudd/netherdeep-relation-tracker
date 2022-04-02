@@ -10,7 +10,7 @@ export const Goals = ({ goals, className }: GoalsProps) => {
     <div
       className={clsx(
         className,
-        'flex flex-col items-center justify-center font-dynalight text-xl'
+        'flex flex-col items-center justify-start font-dynalight text-xl'
       )}>
       <h2>Goals</h2>
       <ul className='list-inside list-disc'>

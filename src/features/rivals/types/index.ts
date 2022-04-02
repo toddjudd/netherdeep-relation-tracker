@@ -10,4 +10,5 @@ export type Relation = {
   hostile: boolean;
   friendly: boolean;
   indifferent: boolean;
+  character: string;
 };

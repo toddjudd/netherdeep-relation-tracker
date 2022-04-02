@@ -1,10 +1,13 @@
+import { Rival } from '@/features/rivals';
+
 const API_URL = process.env.REACT_APP_API_URL as string;
 
-export const Rivals = [
+export const Rivals: Rival[] = [
   {
     name: 'Ayo Jabe',
     relations: [
       {
+        character: 'Ayo Jabe',
         player: 'Bramthrum',
         hostile: false,
         indifferent: false,
@@ -23,6 +26,7 @@ export const Rivals = [
     name: 'Dermot Wurder',
     relations: [
       {
+        character: 'Dermot Wurder',
         player: 'Bramthrum',
         hostile: false,
         indifferent: true,
@@ -41,6 +45,7 @@ export const Rivals = [
     name: 'Galsariad Ardyth',
     relations: [
       {
+        character: 'Galsariad Ardyth',
         player: 'Bramthrum',
         hostile: false,
         indifferent: true,
@@ -59,6 +64,7 @@ export const Rivals = [
     name: 'Irvan Wastewalker',
     relations: [
       {
+        character: 'Irvan Wastewalker',
         player: 'Bramthrum',
         hostile: false,
         indifferent: true,
@@ -77,6 +83,7 @@ export const Rivals = [
     name: 'Maggie Keeneyes',
     relations: [
       {
+        character: 'Maggie Keeneyes',
         player: 'Bramthrum',
         hostile: false,
         indifferent: true,

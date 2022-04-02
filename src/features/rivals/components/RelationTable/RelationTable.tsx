@@ -1,11 +1,12 @@
 import clsx from 'clsx';
 import { useMemo } from 'react';
 import { Table } from 'react-bootstrap';
-import { useTable } from 'react-table';
+import { Column, useTable } from 'react-table';
 
 import { Relation } from '@/features/rivals';
 
-import { CheckboxCell } from './CheckboxCell';
+import { EditablePlayerCell } from './EditablePlayerCell';
+import { SelectRelationCell } from './SelectRelationCell';
 
 export type RelationTableProps = {
   relations: Relation[];
@@ -14,38 +15,36 @@ export type RelationTableProps = {
 
 export const RelationTable = ({ relations, className }: RelationTableProps) => {
   const data = useMemo(() => relations, [relations]);
-  const columns = useMemo(
+  const columns: Column<Relation>[] = useMemo(
     () => [
       {
         Header: 'Player',
         accessor: 'player',
+        Cell: EditablePlayerCell,
       },
       {
         Header: '😠',
         accessor: 'hostile',
+        Cell: SelectRelationCell,
       },
       {
         Header: '😐',
         accessor: 'indifferent',
+        Cell: SelectRelationCell,
       },
       {
         Header: '😀',
         accessor: 'friendly',
+        Cell: SelectRelationCell,
       },
     ],
     []
   );
 
-  const defaultColumn = useMemo(
-    () => ({
-      Cell: CheckboxCell,
-    }),
-    []
-  );
   const { getTableProps, headerGroups, prepareRow, rows, getTableBodyProps } =
     useTable({
       columns,
-      defaultColumn,
+      // defaultColumn,
       data,
     });
   return (

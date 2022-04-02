@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import { ErrorBoundary } from 'react-error-boundary';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import { RivalProvider } from '@/providers/RivalProvider';
+
 const ErrorFallback = () => {
   return (
     <div
@@ -25,7 +27,9 @@ type AppProviderProps = {
 export const AppProvider = ({ children }: AppProviderProps) => {
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <Router>{children}</Router>
+      <Router>
+        <RivalProvider>{children}</RivalProvider>
+      </Router>
     </ErrorBoundary>
   );
 };

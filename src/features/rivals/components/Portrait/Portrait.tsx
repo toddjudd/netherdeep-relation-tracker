@@ -10,9 +10,9 @@ export const Portrait = ({ src, className }: PortraitProps) => {
     <div
       className={clsx(
         className,
-        'bg-gradient-to-b from-red-700 via-orange-900 to-white flex justify-center items-center '
+        'bg-gradient-to-b from-red-700 via-orange-900 to-white flex justify-center items-end p-2'
       )}>
-      <img src={src} className='h-full' alt='logo' />
+      <img src={src} className='max-h-full w-auto' alt='logo' />
     </div>
   );
 };
