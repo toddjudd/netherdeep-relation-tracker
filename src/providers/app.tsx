@@ -27,7 +27,7 @@ type AppProviderProps = {
 export const AppProvider = ({ children }: AppProviderProps) => {
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <RivalProvider>{children}</RivalProvider>
       </Router>
     </ErrorBoundary>
