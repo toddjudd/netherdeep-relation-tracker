@@ -37,7 +37,7 @@ export const SelectRelationCell = <D extends object>({
   if (value && typeof value === 'boolean')
     return (
       <td className='cursor-pointer' onClick={onClick}>
-        🔴
+        🌕
       </td>
     );
   return (
@@ -45,7 +45,7 @@ export const SelectRelationCell = <D extends object>({
       className='cursor-pointer'
       title={`Set Relation ${cell.column.id}`}
       onClick={onClick}>
-      {value || '⚪'}
+      {value || '🌑'}
     </td>
   );
 };

@@ -28,7 +28,7 @@ export const RivalTracker = () => {
         <button
           className='p-2 bg-red-700 text-white rounded-md text-xs border-0'
           onClick={onClick}>
-          Add Player ➕
+          Add Player 🌙
         </button>
       </div>
     </div>
