@@ -58,7 +58,6 @@ export type RivalActions =
 export const rivalReducer = (state: Rival[], action: RivalActions) => {
   switch (action.type) {
     case 'SELECT_RELATION':
-      console.log('SELECT_RELATION');
       return [...state].map((rival) => {
         if (rival.name !== action.payload?.rivalName) return { ...rival };
         rival.relations = [...rival.relations].map((relation) => {
@@ -73,8 +72,6 @@ export const rivalReducer = (state: Rival[], action: RivalActions) => {
         return { ...rival };
       });
     case 'ADD_PLAYER':
-      console.log('ADD_PLAYER');
-      console.log(state);
       return [...state].map((rival) => {
         const newRival = { ...rival, relations: [...rival.relations] };
         newRival.relations.push({
@@ -87,7 +84,6 @@ export const rivalReducer = (state: Rival[], action: RivalActions) => {
         return newRival;
       });
     case 'DELETE_PLAYER':
-      console.log('DELETE_PLAYER');
       return [...state].map((rival) => {
         rival.relations = [...rival.relations].filter(
           ({ player }) => player !== action.payload.playerName
@@ -95,7 +91,6 @@ export const rivalReducer = (state: Rival[], action: RivalActions) => {
         return { ...rival };
       });
     case 'EDIT_PLAYER':
-      console.log('EDIT_PLAYER');
       return [...state].map((rival) => {
         rival.relations = [...rival.relations].map((relation) => {
           if (relation.player === action.payload.playerName)
