@@ -7,7 +7,11 @@ import { Goals, Portrait, RelationTable, Title } from '../components';
 export const RivalTracker = () => {
   const [rivals, dispatch] = useContext(RivalContext);
   const onClick = () => {
-    dispatch(addPlayer({ playerName: 'player' }));
+    dispatch(
+      addPlayer({
+        playerName: `player ${rivals?.pop()?.relations?.length || 0 + 1}`,
+      })
+    );
   };
   return (
     <div
