@@ -9,7 +9,7 @@ export const RivalTracker = () => {
   const onClick = () => {
     dispatch(
       addPlayer({
-        playerName: `player ${rivals?.pop()?.relations?.length || 0 + 1}`,
+        playerName: `player ${[...rivals]?.pop()?.relations?.length || 0 + 1}`,
       })
     );
   };
