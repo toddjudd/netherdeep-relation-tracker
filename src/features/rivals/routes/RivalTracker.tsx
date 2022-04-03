@@ -15,7 +15,7 @@ export const RivalTracker = () => {
   };
   return (
     <div
-      className={`max-h-screen max-w-screen grid grid-cols-${rivals.length} grid-rows-[minmax(0,1fr)_auto_auto_auto_auto] gap-1 p-1`}>
+      className={`h-screen w-screen grid grid-cols-${rivals.length} grid-rows-[minmax(0,1fr)_auto_auto_minmax(0,1fr)_auto] gap-2 p-2 bg-zinc-800 text-white`}>
       {rivals.map(({ imgSrc, name, goals, relations }) => (
         <>
           <Portrait src={imgSrc} className='row-start-1' />

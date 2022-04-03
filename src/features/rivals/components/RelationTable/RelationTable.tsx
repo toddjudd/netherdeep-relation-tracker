@@ -54,6 +54,7 @@ export const RelationTable = ({ relations, className }: RelationTableProps) => {
         bordered
         hover
         size='sm'
+        variant='dark'
         responsive='sm'
         {...getTableProps()}>
         <thead>
