@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 export type TitleProps = {
   name: string;
-  className?: string;
+  className?: string;``
 };
 
 export const Title = ({ name, className }: TitleProps) => {
@@ -11,7 +11,7 @@ export const Title = ({ name, className }: TitleProps) => {
         className,
         'flex align-middle justify-center text-center'
       )}>
-      <h1 className='font-dynalight text-5xl text-red-800 '>{name}</h1>
+      <h1 className='font-montserrat text-5xl text-red-800 '>{name}</h1>
     </div>
   );
 };
