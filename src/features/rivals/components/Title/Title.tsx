@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 export type TitleProps = {
   name: string;
-  className?: string;``
+  className?: string;
 };
 
 export const Title = ({ name, className }: TitleProps) => {
