@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       dynalight: ['Dynalight', 'cursive'],
+      montserrat: ['Montserrat', 'Roboto', 'sans-serif'],
     },
     extend: {
       animation: {
